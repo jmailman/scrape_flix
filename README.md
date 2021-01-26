@@ -58,7 +58,7 @@ Files numbered 1 to 3 follow in sequence but any of 3a, 3b, 3c can be accessed i
 ## Analysis and results
 Several linear regression models were created for each film director. Ordinary linear regression was the initial approach, which was complexified to find better fits.  Ultimately regularization using Lasso and Ridge with cross-validation was employed to tune the models. Various scenarios are considered, such as whether to employ `rating_count` as a feature. The coefficients of these models can be used guide attention toward features that may contribute or detract from the ratings of film. In the case of each director, the relevant features differ.
 
-## Possible impacts of your project
+## Possible impacts of this project
 
 ##### Characterizing response to film directors
 * Besides box-office sales some investors, sponsors, or granting agencies that funds film directors may be interested in viewer responses to a director's films. They may be interested in alternative gauges of success of a movie.
