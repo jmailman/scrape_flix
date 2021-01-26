@@ -24,7 +24,7 @@ The **features** examined are:
 
 
 ## Data Used
-* [IMDB (_Internet Movie Database_)] (http://www.imdb.com)
+* IMDB (_Internet Movie Database_) (http://www.imdb.com)
 * www.the-numbers.com (scraped and joined but ultimately not used)
 
 ## Tools Used
