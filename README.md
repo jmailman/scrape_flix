@@ -24,7 +24,7 @@ The **features** examined are:
 
 
 ## Data Used
-* IMDB (_Internet Movie Database_)
+* IMDB (_Internet Movie Database_) (http://www.imdb.com)
 * www.the-numbers.com (scraped and joined but ultimately not used)
 
 ## Tools Used
@@ -53,12 +53,12 @@ The processing and analysis divides into five python _jupyter notebooks_ named a
 
 `3c_regularization_poly_film_director.ipynb`
 
-Files numbered 1 to 3 follow in sequence but and 3a, 3b, 3c can be accessed in any order. To exchange data between themselves (from 1, to 2, to 3a, b, c) these jupyter notebooks write pickled data files in separate directories dedicated to each film director. Each directory contains 16 such files. To run analysis of a particular director, set the `director = ` string as desired within any of the five jupyter notebooks.
+Files numbered 1 to 3 follow in sequence but any of 3a, 3b, 3c can be accessed in any order (after 2). To exchange data between themselves (from 1, to 2, to 3a, b, c etc.) these jupyter notebooks write pickled data files in separate directories dedicated to each film director. Each directory contains 16 such files. To run analysis of a particular director, set the `director = ` string as desired within any of the five jupyter notebooks.
 
 ## Analysis and results
 Several linear regression models were created for each film director. Ordinary linear regression was the initial approach, which was complexified to find better fits.  Ultimately regularization using Lasso and Ridge with cross-validation was employed to tune the models. Various scenarios are considered, such as whether to employ `rating_count` as a feature. The coefficients of these models can be used guide attention toward features that may contribute or detract from the ratings of film. In the case of each director, the relevant features differ.
 
-## Possible impacts of your project
+## Possible impacts of this project
 
 ##### Characterizing response to film directors
 * Besides box-office sales some investors, sponsors, or granting agencies that funds film directors may be interested in viewer responses to a director's films. They may be interested in alternative gauges of success of a movie.
